@@ -11,6 +11,8 @@
                 <h3>{{ el.name }}</h3>
                 <p>Кол-во: {{ el.kolvo }}кг</p>
                 <p>Цена: {{ el.price }}₽</p>
+                <a href="{% url 'katalog-delete' el.id %}" class="btn btn-danger">Удалить</a>
+                <a href="{% url 'katalog-update' el.id %}" class="btn btn-info">Редактировать</a>
 
 
             </div>

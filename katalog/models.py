@@ -9,6 +9,10 @@ class Shed(models.Model):
     def __str__(self):
         return self.name
 
+    def get_absolute_url(self):
+        return f'/katalog'
+
+
     class Meta:
         verbose_name = 'Каталог'
         verbose_name_plural = 'Каталоги'
