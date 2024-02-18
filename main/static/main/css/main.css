@@ -27,7 +27,7 @@ aside {
     height: 100vh;
     padding: 2.5%;
     color: #F5F5F5;
-    border-bottom: 5px solid #8B4513;
+    border-right: 5px solid #8B4513;
 }
 
 aside h3{
@@ -90,4 +90,10 @@ main .features ol{
     width: 400px;
     margin: 20px 34%;
     text-align: left;
+ }
+
+ form {
+    margin-left: 32%;
+    width: 35%;
+    margin-top: 50px;
  }
