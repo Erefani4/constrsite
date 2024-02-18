@@ -6,6 +6,20 @@
     margin-right: auto;
 }
 
+.m1 {
+    border: 3px solid #8B4513;
+    width: 50.5%;
+
+    vertical-align: middle;
+}
+
+.m2 {
+    border: 3px solid #8B4513;
+    width: 45%;
+
+    vertical-align: middle;
+}
+
 aside {
     background: #CD853F;
     float: left;
