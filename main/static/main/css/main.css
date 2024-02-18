@@ -77,6 +77,13 @@ main .features p{
     margin-right: auto;
  }
 
+main .features ol{
+    max-width: 1500px;
+    margin: 10px;
+    margin-left: 1%;
+    margin-right: 1%;
+ }
+
  .alert-warning {
     float: left;
     clear: both;
