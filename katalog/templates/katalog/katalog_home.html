@@ -1,0 +1,19 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Католог{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>Товар</h1>
+
+        {% for el in katalog %}
+            <div class="alert alert-warning">
+                <h3>{{ el.name }}</h3>
+                <p>Кол-во: {{ el.kolvo }}кг</p>
+                <p>Цена: {{ el.price }}₽</p>
+
+
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

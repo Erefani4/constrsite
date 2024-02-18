@@ -1,0 +1,14 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Расписание{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>Расписание</h1>
+        {% for el in rasp %}
+            <div> class ="alert alert-warning"
+                <h3>Понедельник</h3>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}
