@@ -1,0 +1,22 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Вход{% endblock %}
+
+{% block content %}
+    <div >
+        <h1>Вход</h1>
+        <form method="post">
+            {% csrf_token %}
+            User = {{ user }}
+
+        </form>
+    </div>
+
+    {% if user.is_authenticated %}
+        <a href="{% url 'logout' %}">logout</a>
+    {% else %}
+    <form method="post">
+        <a href="{% url 'login' %}">login</a> |
+        <a href="{% url 'register' %}">reg</a>
+    </form>
+{% endblock %}
